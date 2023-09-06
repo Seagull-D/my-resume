@@ -5,7 +5,6 @@
 }
 
 body {
-  height: 100%;
   font-family: Montserrat;
   background-color: var(--background-color);
   background-image: url(../images/mob-bacgr.svg);
@@ -13,6 +12,10 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+html,
+body {
+  height: 100%;
 }
 
 p,
@@ -37,6 +40,8 @@ img {
   display: block;
   max-width: 100%;
 }
+main {
+}
 .no-sctoll {
   overflow: hidden;
 }
@@ -50,7 +55,7 @@ img {
 .page {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .container {
@@ -160,6 +165,7 @@ img {
   text-align: center;
 }
 .main-container {
+  flex: 1 1 auto;
 }
 .title {
   display: block;
@@ -203,7 +209,7 @@ img {
 }
 .footer-container {
   display: flex;
-  margin-top: auto;
+
   justify-content: center;
   margin-bottom: 30px;
 }
