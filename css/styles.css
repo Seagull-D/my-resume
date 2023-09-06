@@ -201,7 +201,7 @@ main {
 
 .my-photo {
   display: block;
-
+  margin-top: 150px;
   border-radius: 50%;
 
   background-color: rgba(207, 192, 221, 0.685);
