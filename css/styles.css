@@ -90,7 +90,7 @@ main {
 }
 
 .header-container {
-  position: fixed;
+  position: static;
   padding-top: 20px;
   display: flex;
   justify-content: space-between;
@@ -101,9 +101,6 @@ main {
   justify-content: center;
   margin: 0 auto;
   flex-direction: column;
-  gap: 30px;
-}
-.main-section:not(:last-child) {
   gap: 30px;
 }
 
@@ -201,7 +198,7 @@ main {
 
 .my-photo {
   display: block;
-  margin-top: 150px;
+
   border-radius: 50%;
 
   background-color: rgba(207, 192, 221, 0.685);

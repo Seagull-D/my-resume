@@ -1,11 +1,12 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 428px) {
   .container {
-    max-width: 1100px;
+    max-width: 428px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .container {
+    width: 100%;
     max-width: 1100px;
   }
 }
