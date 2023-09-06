@@ -72,11 +72,11 @@ img {
 
 .hamburder-btn:active .humburger-svg {
   fill: rgb(165, 18, 170);
-  transition: transform 350ms cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 .humburger-svg {
   fill: var(--text-color);
+  transition: transform 350ms cubic-bezier(0.4, 1, 0.2, 1);
 }
 
 .header-container {
@@ -199,15 +199,15 @@ img {
 }
 .footer-svg {
   fill: var(--text-color);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    width 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    height 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 150ms cubic-bezier(0.4, 0, 0.2, 1),
+    width 150ms cubic-bezier(0.4, 0, 0.2, 1),
+    height 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fooer-soc-ico-iteam .footer-svg:hover,
 .fooer-soc-ico-iteam .footer-svg:focus,
 .fooer-soc-ico-iteam .footer-svg:active {
-  fill: white;
+  fill: rgb(227, 162, 230);
   width: 35px;
   height: 35px;
 }
