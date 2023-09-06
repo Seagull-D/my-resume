@@ -5,6 +5,7 @@
 }
 
 body {
+  height: 100%;
   font-family: Montserrat;
   background-color: var(--background-color);
   background-image: url(../images/mob-bacgr.svg);
