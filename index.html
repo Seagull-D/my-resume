@@ -17,43 +17,97 @@
       referrerpolicy="no-referrer"
     />
     <link href="dist/hamburgers.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>SeaGull</title>
   </head>
   <body>
-    <header class="">
-      <div class="container header-container">
-        <a href="index.html">
-          <img class="seagull-logo" src="./images/Seagull (2).svg" alt="Logo" />
-        </a>
-        <button class="hamburder-btn" data-mob-open type="button ">
-          <svg class="humburger-svg" width="32" height="22">
-            <use href="./images/icons.svg#icon-menu-hamburger"></use>
-          </svg>
-        </button>
-      </div>
-      <div class="mob-menu is-hidden" data-mob>
-        <div>
-          <button class="close-menu-button" type="button " data-mob-close>
-            <svg class="menu-button-svg" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-black"></use>
+    <div class="page">
+      <header class="">
+        <div class="container header-container">
+          <a href="index.html">
+            <img
+              class="seagull-logo"
+              src="./images/Seagull (2).svg"
+              alt="Logo"
+            />
+          </a>
+          <button class="hamburder-btn" data-mob-open type="button ">
+            <svg class="humburger-svg" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
             </svg>
           </button>
         </div>
-        <ul class="mob-menu-list">
-          <li>
-            <a class="link mob-menu-items" href="#">про мене</a>
-          </li>
-          <li>
-            <a class="link mob-menu-items" href="#">освіта</a>
-          </li>
-          <li>
-            <a class="link mob-menu-items" href="#">досвід</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main></main>
-    <script src="./script.js"></script>
+        <div class="mob-menu is-hidden" data-mob>
+          <div>
+            <button class="close-menu-button" type="button " data-mob-close>
+              <svg class="menu-button-svg" width="12" height="12">
+                <use href="./images/icons.svg#icon-close-black"></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="mob-menu-list">
+            <li>
+              <a class="link mob-menu-items" href="#">про мене</a>
+            </li>
+            <li>
+              <a class="link mob-menu-items" href="#">освіта</a>
+            </li>
+            <li>
+              <a class="link mob-menu-items" href="#">досвід</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main-container">
+        <section class="main-section container">
+          <h1 class="title">Дмитро Чайка</h1>
+        </section>
+      </main>
+      <script src="./script.js"></script>
+      <footer class="footer-container container">
+        <div class="studio-social-media wrap-tablet">
+          <p class="footer-text">Social media</p>
+
+          <ul class="footer-social-icons">
+            <li class="fooer-soc-ico-iteam">
+              <a class="footer-soc-link" target="blank" href="#">
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="fooer-soc-ico-iteam">
+              <a
+                class="footer-soc-link"
+                target="blank"
+                href="https://github.com/Seagull-D"
+              >
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-github1"></use></svg
+              ></a>
+            </li>
+            <li class="fooer-soc-ico-iteam">
+              <a
+                class="footer-soc-link"
+                target="blank"
+                href="https://www.facebook.com/profile.php?id=100013787281462"
+              >
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="fooer-soc-ico-iteam">
+              <a
+                class="footer-soc-link"
+                target="blank"
+                href="https://www.linkedin.com/in/dmitriy-chaika-4bb998216/"
+              >
+                <svg class="footer-svg" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
