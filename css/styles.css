@@ -60,7 +60,6 @@ main {
 }
 
 .container {
-  position: relative;
   min-width: 320px;
   max-width: 430px;
   width: 100%;
@@ -110,11 +109,6 @@ main {
 .nav-menu {
   display: none;
 }
-.modal-container {
-  position: relative;
-  max-width: 430px;
-  height: 100%;
-}
 .mob-menu {
   position: fixed;
   display: flex;
@@ -125,7 +119,7 @@ main {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   width: 60%;
-  max-width: 428px;
+  max-width: 280px;
   height: 60%;
   top: 70px;
   right: 25px;
