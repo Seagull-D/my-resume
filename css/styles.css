@@ -152,6 +152,12 @@ main {
   fill: var(--background-color);
   border: none;
 }
+.close-menu-button .menu-button-svg:hover,
+.close-menu-button .menu-button-svg:active {
+  width: 5px;
+  height: 5px;
+}
+
 .mob-menu-list {
   display: flex;
   flex-direction: column;
