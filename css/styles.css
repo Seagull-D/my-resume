@@ -2,6 +2,7 @@
   --background-color: #202020;
   --text-color: #f7f7f7;
   --second-backgroundcolor: #f5f4f8;
+  --active-link-color: rgb(227, 162, 230);
 }
 
 body {
@@ -78,10 +79,9 @@ main {
   transition: transform 350ms cubic-bezier(0.4, 1, 0.2, 1);
 }
 
-.hamburder-btn .humburger-svg:active,
 .hamburder-btn .humburger-svg:hover,
 .hamburder-btn .humburger-svg:focus {
-  fill: rgb(165, 18, 170);
+  fill: var(--active-link-color);
 }
 
 .humburger-svg {
@@ -166,6 +166,33 @@ main {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mob-menu-items:hover {
+  color: var(--active-link-color);
+  box-shadow: 1px -2px 37px 5px var(--active-link-color);
+  border-radius: 30px;
+}
+.modal-contacts {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.phone-modal-svg {
+  fill: var(--background-color);
+  transition: fill 150ms cubic-bezier(0.4, 0, 0.2, 1),
+    width 150ms cubic-bezier(0.4, 0, 0.2, 1),
+    height 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-link .phone-modal-svg:hover {
+  fill: var(--active-link-color);
+  width: 30px;
+  height: 30px;
 }
 .main-container {
   flex: 1 1 auto;
@@ -245,7 +272,7 @@ main {
   display: flex;
   width: 100%;
   height: 100%;
-  background-color: var(--active-link-color);
+
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -261,7 +288,10 @@ main {
 .fooer-soc-ico-iteam .footer-svg:hover,
 .fooer-soc-ico-iteam .footer-svg:focus,
 .fooer-soc-ico-iteam .footer-svg:active {
-  fill: rgb(227, 162, 230);
+  fill: var(--active-link-color);
   width: 35px;
   height: 35px;
+}
+.footer-contacts {
+  display: none;
 }

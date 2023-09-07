@@ -38,6 +38,17 @@
     text-align: center;
   }
   .footer-container {
-    justify-content: start;
+    justify-content: space-between;
+  }
+  .footer-social-icons {
+    margin: 0;
+  }
+  .footer-contacts {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .phone-futer-svg {
+    fill: var(--text-color);
   }
 }
