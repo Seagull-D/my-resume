@@ -24,4 +24,20 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  .nav-menu {
+    display: flex;
+    gap: 15px;
+  }
+  .nav-menu-item {
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+  }
+  .footer-container {
+    justify-content: start;
+  }
 }

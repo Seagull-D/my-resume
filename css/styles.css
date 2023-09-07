@@ -103,7 +103,12 @@ main {
   flex-direction: column;
   gap: 30px;
 }
-
+.main-section:not(:last-child) {
+  gap: 30px;
+}
+.nav-menu {
+  display: none;
+}
 .mob-menu {
   position: fixed;
   display: flex;
