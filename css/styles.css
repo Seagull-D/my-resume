@@ -205,6 +205,11 @@ main {
 .main-container {
   flex: 1 1 auto;
 }
+.main-title-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
 .title {
   display: block;
   color: var(--text-color);
