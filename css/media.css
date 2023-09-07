@@ -2,6 +2,9 @@
   .container {
     max-width: 428px;
   }
+  .mob-menu-list {
+    gap: 40px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -19,6 +22,13 @@
   }
   .title {
     padding-top: 0;
+    font-size: 40px;
+  }
+  .hero-text {
+    font-size: 25px;
+  }
+  .helo-little-text {
+    font-size: 12px;
   }
   .main-container {
     padding-left: 40px;
@@ -52,7 +62,7 @@
   }
   .footer-contacts {
     display: flex;
-    gap: 16px;
+    gap: 30px;
     align-items: center;
   }
   .phone-futer-svg {
