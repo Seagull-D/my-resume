@@ -13,6 +13,10 @@
     /* padding-left: 30px;
     padding-right: 30px; */
   }
+  .seagull-logo {
+    width: 40px;
+    height: 40px;
+  }
   .hamburder-btn {
     display: none;
   }
@@ -79,6 +83,11 @@
   .container {
     max-width: 1158px;
   }
+  .seagull-logo {
+    width: 45px;
+    height: 45px;
+  }
+
   .nav-menu-item:active,
   .nav-menu-item:hover {
     border: none;
