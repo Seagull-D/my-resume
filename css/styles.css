@@ -323,3 +323,12 @@ main {
 .footer-contacts {
   display: none;
 }
+
+.text-about {
+  display: inline-flex;
+  color: aqua;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 17px;
+  border: none;
+}
