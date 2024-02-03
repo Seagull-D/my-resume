@@ -114,9 +114,8 @@
   }
 
   .main-section {
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: end;
   }
   .contact-text {
     display: inline-flex;
@@ -159,5 +158,13 @@
   .about-me-photo {
     height: 100%;
     width: 100%;
+  }
+  .direction-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  .main-title-wrap {
+    justify-content: end;
   }
 }
