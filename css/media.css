@@ -116,6 +116,7 @@
   .main-section {
     flex-direction: column;
     justify-content: space-between;
+    margin-top: 40px;
   }
   .contact-text {
     display: inline-flex;
@@ -160,9 +161,8 @@
     width: 100%;
   }
   .direction-main {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 100px;
   }
   .main-title-wrap {
     justify-content: end;
