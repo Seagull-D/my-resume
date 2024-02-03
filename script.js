@@ -13,3 +13,10 @@
     document.body.classList.toggle("no-sctoll");
   }
 })();
+
+function printPDF() {
+  const pdfWindow = window.open("./cv/DMITRO CHAIKA HR.pdf");
+  pdfWindow.onload = function () {
+    pdfWindow.print();
+  };
+}
