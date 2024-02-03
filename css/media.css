@@ -86,6 +86,14 @@
   .contact-text {
     display: none;
   }
+  .about-section {
+    position: relative;
+  }
+  .about-me-photo {
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
 }
 
 @media screen and (min-width: 946px) {
@@ -140,7 +148,16 @@
   }
   a:hover .phone-futer-svg {
     fill: var(--active-link-color);
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .about-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .about-me-photo {
+    height: 100%;
+    width: 100%;
   }
 }

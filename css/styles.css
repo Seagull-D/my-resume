@@ -326,9 +326,60 @@ main {
 
 .text-about {
   display: inline-flex;
-  color: aqua;
+  text-align: justify;
+  color: var(--text-color);
   cursor: pointer;
   margin-left: 10px;
-  font-size: 17px;
+  font-size: 16px;
   border: none;
+  margin-top: 10px;
+}
+.u-color {
+  color: yellow;
+}
+.a-color {
+  color: blue;
+}
+.p-color {
+  color: white;
+}
+.l-color {
+  color: red;
+}
+
+.about-me-photo {
+  display: none;
+}
+.education-section {
+  margin-top: 20px;
+}
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.education-iteam {
+}
+
+.edu-link {
+  color: var(--text-color);
+}
+.year {
+  color: var(--text-color);
+  margin-top: 10px;
+  font-size: 14px;
+}
+.exp-section {
+  margin-top: 20px;
+}
+.exp-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.exp-iteam {
+}
+
+.exp-link {
+  color: var(--text-color);
 }
