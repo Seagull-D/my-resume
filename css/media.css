@@ -10,8 +10,8 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 945px;
-    /* padding-left: 30px;
-    padding-right: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
   }
   .seagull-logo {
     width: 50px;
@@ -37,6 +37,8 @@
   .main-container {
     padding-left: 40px;
     padding-right: 40px;
+
+    justify-content: center;
   }
 
   .nav-menu {
@@ -44,6 +46,7 @@
     gap: 20px;
   }
   .nav-menu-item {
+    position: relative;
     color: var(--text-color);
     font-size: 20px;
     padding: 5px 10px;
@@ -52,6 +55,18 @@
     letter-spacing: 0.02em;
     text-align: center;
     cursor: pointer;
+    transition: color, border 200ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav-menu-item:hover:after {
+    content: "";
+    position: absolute;
+    width: 70%;
+    height: 4px;
+    border-radius: 2px;
+    bottom: -1px;
+    background-color: var(--active-link-color);
+    left: 16px;
+    opacity: 0.1;
   }
 
   .current {
@@ -60,9 +75,8 @@
     box-shadow: darkgray;
   }
   .footer-container {
+    flex-direction: row;
     justify-content: space-between;
-    padding-left: 0;
-    padding-right: 0;
   }
   .footer-social-icons {
     margin: 0;
@@ -156,6 +170,8 @@
   .about-section {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
   }
   .about-me-photo {
     height: 100%;

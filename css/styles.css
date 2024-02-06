@@ -43,6 +43,12 @@ img {
 }
 main {
 }
+
+header {
+  box-shadow: 6px 30px 20px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+  border-bottom: 1px solid #e2c4e2;
+}
 .no-sctoll {
   overflow: hidden;
   flex-grow: 1;
@@ -103,10 +109,9 @@ main {
 }
 
 .header-container {
-  padding-top: 20px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  align-items: center;
 }
 .main-section {
   display: flex;
@@ -181,6 +186,9 @@ main {
   margin: auto;
   margin-top: 40px;
 }
+.mob-active-item::before {
+  content: "-";
+}
 
 .mob-menu-items {
   display: block;
@@ -237,6 +245,11 @@ main {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
+  justify-content: center;
+
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
 }
 .main-title-wrap {
   display: flex;
@@ -276,7 +289,7 @@ main {
 
 .my-photo {
   display: block;
-
+  margin-top: 30px;
   border-radius: 50%;
 
   background-color: rgba(207, 192, 221, 0.685);
