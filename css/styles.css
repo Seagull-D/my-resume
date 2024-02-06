@@ -45,6 +45,7 @@ main {
 }
 .no-sctoll {
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .link {
@@ -70,9 +71,20 @@ main {
 }
 
 .seagull-logo {
-  width: 35px;
-  height: 35px;
+  display: block;
+  width: 45px;
+  height: 45px;
   fill: var(--second-backgroundcolor);
+  padding: 5px;
+  z-index: 2;
+}
+
+.logo-link {
+  border-radius: 50%;
+  transition: box-shadow 350ms cubic-bezier(0.4, 1, 0.2, 1);
+}
+.logo-link:hover {
+  box-shadow: 0px 0px 7px 0px #ece8f2;
 }
 .hamburder-btn {
   border: none;
@@ -99,7 +111,7 @@ main {
 .main-section {
   display: flex;
   justify-content: center;
-  margin: 0 auto;
+
   flex-direction: column;
 }
 .direction-main {
@@ -222,6 +234,8 @@ main {
   height: 35px;
 }
 .main-container {
+  display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
 }
 .main-title-wrap {
@@ -394,6 +408,7 @@ main {
 }
 
 .print-button {
+  display: block;
   font-family: "Monserat", sans-serif;
   font-size: 16px;
   font-weight: 500;
@@ -404,9 +419,12 @@ main {
   color: #ffffff;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin: 100px auto 0;
+  margin: 0 auto;
   min-width: 160px;
   height: 56px;
   border: none;
   border-radius: 10px;
+}
+.button-section {
+  flex: 1;
 }
