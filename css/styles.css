@@ -121,7 +121,6 @@ header {
 .direction-main {
   display: flex;
   flex-direction: column;
-  gap: 30px;
 }
 .main-section:not(:last-child) {
   gap: 30px;
@@ -253,7 +252,7 @@ header {
 .main-title-wrap {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   margin-bottom: 15px;
 }
 .title {
@@ -301,13 +300,14 @@ header {
   display: flex;
   flex-direction: column;
   margin: auto;
+  gap: 20px;
 }
 .skills-title {
   display: block;
   color: var(--text-color);
   font-size: 20px;
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .skills-list {
@@ -317,7 +317,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-
+  justify-content: center;
   align-items: center;
 }
 .soft-skills {
@@ -329,6 +329,22 @@ header {
 }
 .skills-text {
   display: none;
+}
+
+.soft-iteam {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.soft-down-svg {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  fill: var(--text-color);
+}
+.soft-text {
+  padding-left: 18px;
+  justify-content: end;
 }
 .footer-container {
   display: flex;
