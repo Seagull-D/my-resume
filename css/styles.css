@@ -254,6 +254,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 15px;
 }
 .title {
   display: block;
@@ -294,6 +295,31 @@ header {
   background-color: rgba(207, 192, 221, 0.685);
   border: 2px solid rgb(235, 231, 236);
   box-shadow: 1px -2px 37px 5px #ece8f2;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.skills-title {
+  display: block;
+  color: var(--text-color);
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.skills-list {
+  color: var(--text-color);
+}
+.hard-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.skills-text {
+  display: none;
 }
 .footer-container {
   display: flex;
