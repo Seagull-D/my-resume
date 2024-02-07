@@ -312,6 +312,7 @@ header {
 
 .skills-list {
   color: var(--text-color);
+  font-size: 15px;
 }
 .hard-skills {
   display: flex;
