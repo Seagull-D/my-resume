@@ -316,7 +316,16 @@ header {
 .hard-skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
+  gap: 6px;
+
+  align-items: center;
+}
+.soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .skills-text {
   display: none;
