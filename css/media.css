@@ -108,6 +108,13 @@
     width: 60px;
     height: 60px;
   }
+  .hard-skills {
+    gap: 25px;
+  }
+  .skill-svg {
+    width: 45px;
+    height: 45px;
+  }
 }
 
 @media screen and (min-width: 946px) {
@@ -185,5 +192,15 @@
     position: relative;
     justify-content: end;
     bottom: -70px;
+  }
+  .hard-skills {
+    gap: 30px;
+  }
+  .skill-svg {
+    width: 50px;
+    height: 50px;
+  }
+  .skills {
+    gap: 50px;
   }
 }
